@@ -3,6 +3,7 @@ import { useApolloClient } from '@apollo/client'
 
 const TestPage = () => {
   const apolloClient = useApolloClient()
+  console.log("apolloClient:", apolloClient);
   return (
     <>
       <h1>TestPage</h1>
